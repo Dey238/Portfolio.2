@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+          rel="stylesheet">
+
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Portfolio | Alexander Parra</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<main class="flex-fill">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./IMG/web img.png" alt="Logo Alexander Parra" width="40" class="me-2">
+      Alexander Parra
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link active" 
+             href="https://github.com/Dey238?tab=repositories" 
+             target="_blank" rel="noopener noreferrer">
+             Repositorios
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./aboutMe.html">
+            Acerca de mí
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html" target="_blank">
+            Contacto
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<section class="d-flex justify-content-center my-5 px-3">
+  <div class="card shadow" style="max-width: 20rem;">
+    
+    <img src="./IMG/devAvatar.png" 
+         class="card-img-top" 
+         alt="Avatar desarrollador Alexander Parra">
+
+    <div class="card-body text-center">
+        <h5 class="card-title">Alexander Parra</h5>
+        <p class="card-text">Desarrollador</p>
+        <a href="#proyectos" class="btn btn-primary">
+          Mis trabajos
+        </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="proyectos" class="container my-5">
+  <h2 class="text-center mb-4">Mis Proyectos</h2>
+
+  <div class="row g-4 justify-content-center">
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <a href="https://69a84ba22c74ad0770454414--famous-mandazi-de3b2c.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img src="./IMG/Weather channel.jpg" 
+               class="card-img-top" 
+               alt="Aplicación del clima con AJAX">
+        </a>
+        <div class="card-body text-center">
+          <h5 class="card-title">App del Clima</h5>
+          <p class="card-text">
+            Aplicación que consume una API utilizando AJAX y muestra el clima dinámicamente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <a href="https://69a84c4ea5140e0574dfffdc--fastidious-puffpuff-7b0fab.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img src="./IMG/ColorGame.jpg" 
+               class="card-img-top" 
+               alt="Juego de colores en JavaScript">
+        </a>
+        <div class="card-body text-center">
+          <h5 class="card-title">Color Game</h5>
+          <p class="card-text">
+            Juego interactivo desarrollado en JavaScript para adivinar colores RGB.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <a href="https://69a84c9d92f7be143cf244b8--magnificent-speculoos-628ecf.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img src="./IMG/To_do_list.jpg" 
+               class="card-img-top" 
+               alt="Lista de tareas con almacenamiento local">
+        </a>
+        <div class="card-body text-center">
+          <h5 class="card-title">To-Do List</h5>
+          <p class="card-text">
+            Aplicación de tareas con almacenamiento en LocalStorage y manipulación del DOM.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+    
+    <p>Sígueme en redes</p>
+
+    <div class="mb-3">
+
+      <a href="https://www.facebook.com/deyvier.alexander" 
+         class="me-3 text-white" 
+         target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+
+      <a href="https://www.instagram.com/dey.238/" 
+         class="me-3 text-white" 
+         target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+
+      <a href="https://github.com/Dey238" 
+         class="me-3 text-white" 
+         target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/deyvier-alexander" 
+         class="text-white" 
+         target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+
+    </div>
+
+    <p class="mb-0">© 2026 Alexander Parra</p>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
